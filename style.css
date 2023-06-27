@@ -11,6 +11,9 @@ coloque nas sessões indicadas*/
     --cor-de-link: #000;
 }
 
+/*Header Section*/
+header{}
+
 body {
     box-sizing: border-box;
     background-color: var(--cor-de-fundo);
