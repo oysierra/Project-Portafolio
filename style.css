@@ -12,7 +12,7 @@ coloque nas sessões indicadas*/
 }
 
 /*Header Section*/
-header{}
+header {}
 
 body {
     box-sizing: border-box;
@@ -54,20 +54,20 @@ section.menu {
     height: 8.5em;
     justify-content: space-between;
     margin: 0 auto;
-    max-width: 100em;
+    max-width: 80em;
 }
 
-.menu__header{
+.menu__header {
     display: flex;
     align-items: center;
 }
 
-.logo__personal{
+.logo__personal {
     width: 15%;
     margin: 0 15px 0 0;
 }
 
-nav{
+nav {
     align-items: center;
     display: flex;
     height: inherit;
@@ -76,7 +76,7 @@ nav{
     width: 100%;
 }
 
-.menu__list{
+.menu__list {
     align-items: center;
     display: flex;
     height: inherit;
@@ -85,16 +85,56 @@ nav{
     width: 100%;
 }
 
-.menu__list__item__contato{
+.menu__list__item__contato {
     font-weight: bold;
 }
 
 /*Sección Title*/
 
-section.title {}
+section.title {
+    height: inherit;
+    width: 100%;
+    margin: 0 auto;
+    background-image: linear-gradient(90deg, rgba(247, 247, 247, 0.575) 50%, rgba(245, 245, 245, 0.575) 100%), url(assets/backgrounds/title_bg.jpg);
+}
 
-.title__profile{
-    border-radius: 50%;
+.title__div {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 20em 0 20em;
+}
+
+.title__container {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: center;
+    width: inherit;
+}
+
+.title__profile {
+    border-radius: 100%;
+    margin: auto;
+    width: 20%;
+    height: 20%;
+}
+
+.title__bio{
+    font-size: 2.5em;
+}
+
+.title__subsection{
+    font-weight: lighter;
+}
+
+.title__network {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title__network__item img {
+    width: 40px; /* Establece el ancho deseado */
+    height: 40px; /* Establece la altura deseada */
 }
 
 /*Sección About*/
