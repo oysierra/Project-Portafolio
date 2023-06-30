@@ -48,7 +48,43 @@ https://en.bem.info/methodology/quick-start/*/
 
 /*Sección Menu*/
 
-section.menu {}
+section.menu {
+    display: flex;
+    align-items: center;
+    height: inherit;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 60em;
+}
+
+.menu__header{
+    display: flex;
+    align-items: center;
+}
+
+.logo__personal{
+    width: 15%;
+    margin: 0 15px 0 0;
+}
+
+nav{
+    align-items: center;
+    display: flex;
+    height: inherit;
+    justify-content: space-evenly;
+    max-width: 40em;
+    width: 100%;
+}
+
+.menu__list{
+    align-items: center;
+    display: flex;
+    height: inherit;
+    justify-content: space-evenly;
+    max-width: 40em;
+    width: 100%;
+
+}
 
 /*Sección Title*/
 
