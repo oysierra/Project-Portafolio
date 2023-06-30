@@ -51,10 +51,10 @@ https://en.bem.info/methodology/quick-start/*/
 section.menu {
     display: flex;
     align-items: center;
-    height: inherit;
+    height: 8.5em;
     justify-content: space-between;
     margin: 0 auto;
-    max-width: 60em;
+    max-width: 100em;
 }
 
 .menu__header{
@@ -83,7 +83,10 @@ nav{
     justify-content: space-evenly;
     max-width: 40em;
     width: 100%;
+}
 
+.menu__list__item__contato{
+    font-weight: bold;
 }
 
 /*Sección Title*/
