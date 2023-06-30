@@ -93,6 +93,10 @@ nav{
 
 section.title {}
 
+.title__profile{
+    border-radius: 50%;
+}
+
 /*Sección About*/
 
 section.about {}
